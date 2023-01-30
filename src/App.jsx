@@ -9,19 +9,21 @@ function App() {
     <div className="App">
      <div>
         <a href="https://shaksphere.au" target="_blank">
-          <img src="/images/shaksphere.jpg" className="logo" alt="Shaksphere logo" />
+          <img src="assets/images/shaksphere.jpg" className="logo" alt="Shaksphere logo" />
         </a>
       </div>
       <div>
-      <img width={1200} src="/images/banner1.png" className='banner' alt='banner'/>
+      <img width={1200} src="assets/images/banner1.png" className='banner' alt='banner'/>
       <h1>My Portfolio</h1>
       </div>
 
       <div>
-      <divider>_____________________________</divider>        
-        <h1 className="read-the-docs">
+      <divider>_____________________________</divider>       
+      <span className="read-the-docs"> 
+      <h1>
             Currently Under Construction      </h1>
-            <img src="/images/construction.png" className='constructionimg' alt='under construction'/>
+            <img src="assets/images/construction.png" className='constructionimg' alt='under construction'/>
+            </span>
       </div>  
       <divider>_____________________________</divider>        
       <div>

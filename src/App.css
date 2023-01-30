@@ -37,10 +37,16 @@
   padding: 2em;
 }
 
-.read-the-docs {
+span.read-the-docs {
   color: #FF5B37;
+  margin-top: 2rem;
   margin-bottom: 2rem;
-  background-color: none;
+  display: block; /* the default for span */
+  width: auto;
+  height: auto;
+  padding: 5px;
+  border: 1px #242424;  
+  background-color:  #ffffff	; 
   
 }
 .attributions {
@@ -49,13 +55,14 @@
 }
 
 h1 {
-  background-color: #ffde59;
 }
 
 .banner {
 
 }
 
-.divider {
+divider {
   color: #ffffff;
+
 }
+
