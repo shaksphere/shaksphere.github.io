@@ -38,13 +38,24 @@
 }
 
 .read-the-docs {
-  color: #ffde59;
+  color: #FF5B37;
+  margin-bottom: 2rem;
+  background-color: none;
   
+}
+.attributions {
+  color: #ffde59;
+  margin-bottom: 1rem;
 }
 
 h1 {
+  background-color: #ffde59;
 }
 
 .banner {
 
+}
+
+.divider {
+  color: #ffffff;
 }
