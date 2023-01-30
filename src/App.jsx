@@ -9,7 +9,7 @@ function App() {
     <div className="App">
      <div>
         <a href="https://shaksphere.au" target="_blank">
-          <img src="/public/images/shaksphere.jpg" className="logo" alt="Shaksphere logo" />
+          <img src="/dist/images/shaksphere.jpg" className="logo" alt="Shaksphere logo" />
         </a>
 
         <a href="https://reactjs.org" target="_blank">
@@ -17,14 +17,14 @@ function App() {
         </a>
       </div>
       <div>
-      <img width={1200} src="/public/images/banner1.png" className='banner' alt='banner'/>
+      <img width={1200} src="/dist/images/banner1.png" className='banner' alt='banner'/>
       <h1>My Portfolio</h1>
       </div>
 
    
       <h2 className="read-the-docs">
           Under Construction      </h2>
-          <img src="/public/images/construction.png" className='constructionimg' alt='under construction'/>
+          <img src="/dist/images/construction.png" className='constructionimg' alt='under construction'/>
 
 
     </div>
