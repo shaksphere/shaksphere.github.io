@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import '../dist/images'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +9,7 @@ function App() {
     <div className="App">
      <div>
         <a href="https://shaksphere.au" target="_blank">
-          <img src="/dist/images/shaksphere.jpg" className="logo" alt="Shaksphere logo" />
+          <img src="/images/shaksphere.jpg" className="logo" alt="Shaksphere logo" />
         </a>
 
         <a href="https://reactjs.org" target="_blank">
@@ -18,14 +17,14 @@ function App() {
         </a>
       </div>
       <div>
-      <img width={1200} src="/dist/images/banner1.png" className='banner' alt='banner'/>
+      <img width={1200} src="/images/banner1.png" className='banner' alt='banner'/>
       <h1>My Portfolio</h1>
       </div>
 
    
       <h2 className="read-the-docs">
           Under Construction      </h2>
-          <img src="/dist/images/construction.png" className='constructionimg' alt='under construction'/>
+          <img src="/images/construction.png" className='constructionimg' alt='under construction'/>
 
 
     </div>
