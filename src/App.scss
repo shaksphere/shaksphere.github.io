@@ -1,0 +1,65 @@
+@import "./variables";
+// Import Pico
+@import "@picocss/pico/scss/pico";
+#root {
+  max-width: 1280px!important;
+  margin: 0 auto!important;
+  padding: 2rem!important;
+  text-align: center!important;
+  background-color: #242424;
+}
+
+.logo {
+  height: 10em!important;
+  padding: 1.5em!important;
+  will-change: filter!important;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa)!important;
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa)!important;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg)!important;
+  }
+  to {
+    transform: rotate(360deg)!important;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear!important;
+  }
+}
+
+.card {
+  padding: 2em!important;
+}
+
+span.read-the-docs {
+  color: #FF5B37!important;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: block; /* the default for span */ 
+  width: auto;
+  height: auto;
+  padding: 5px;
+  border: 1px #242424!important;  
+  background-color:  #ffffff; 
+  
+}
+.attributions {
+  color: #ffde59;
+  margin-bottom: 1rem;
+}
+
+
+divider {
+  color: #ffffff;
+
+}
+

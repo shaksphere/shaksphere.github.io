@@ -2,7 +2,7 @@
   "homepage": "http://shaksphere.github.io/",
   "name": "portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,13 +14,16 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.0"
+    "react-router-dom": "latest",
+    "vite-plugin-multi-pages": "^0.0.10"
   },
   "devDependencies": {
+    "@picocss/pico": "^1.5.7",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
     "gh-pages": "^5.0.0",
+    "sass": "^1.57.1",
     "vite": "^4.0.0"
   }
 }
