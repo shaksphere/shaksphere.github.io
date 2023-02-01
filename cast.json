@@ -1,0 +1,21 @@
+[
+    {
+      "id": 0,
+      "name": "About Me",
+      "slug": "about",
+      "bio": "More information about me (Shakeel Abbas)"
+    },
+    {
+      "id":1,
+      "name": "My Portfolio",
+      "slug": "portfolio",
+      "bio": "View my portfolio"
+    },
+    {
+      "id":2,
+      "name": "Contact Me",
+      "slug": "contact",
+      "bio": "My contact details"
+    }
+  ]
+  
