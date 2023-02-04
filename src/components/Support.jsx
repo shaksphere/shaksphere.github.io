@@ -3,6 +3,7 @@ const pageTitle = document.title;
 
 export default () => {
   const [count, setCount] = useState(0)
+  count
 
   useEffect(() => {
     count && (document.title = `${pageTitle} - ${count}`);
@@ -13,7 +14,8 @@ export default () => {
   })*/
   return (
   <button className="outline" onClick={()=> setCount(count + 1)}>
-    {count === 0 ? "Click to support this project": `Supported ${count} times`}
+    {count === 0 ? "My job is to count clicks": ` I've been clicked ${count} times (ouch!)`}
+
       </button>
 
   )

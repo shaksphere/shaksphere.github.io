@@ -14,14 +14,18 @@ export default ({ member, handleClose, handleChange }) => {
               display: "flex",
               gap: '1rem'
             }}>
-                <hgroup>
+             <img style={{ width: '200px' }}
+              src={`../assets/images${member.slug}.svg`}
+              alt={member.name} />
+
+            <hgroup>
                 <h1>{member.name}</h1>
                 <p>{member.bio}</p>
                 <hgroup style={{
                   display: "flex",
-                  gap: "10rem",
+                  gap: "1rem",
                   marginTop: "1rem",
-                  justifyContent: "space-between"
+                  justifyContent: "space-between",
                 }}>
                   <a className="outline" href="#" role="button"
                     onClick={() => { handleChange(Number(member.id) - 1) }}
