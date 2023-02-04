@@ -2,10 +2,6 @@
 
 ![LinkedIn Banner](https://user-images.githubusercontent.com/110363828/216151088-e67e0472-c474-4140-918d-617ca03c2f3c.png)
 
-![chrome_8CcPnX9oM4](https://user-images.githubusercontent.com/110363828/216154308-90d2fa47-5b2a-47be-837b-1c415051bfdd.png)
-
-
-
 ## :book: 𝙰𝚋𝚘𝚞𝚝 𝙼𝚎
 
 ```python
@@ -71,7 +67,10 @@ me.say_hi()
 
 ## 🗂️ Highlight Projects
 
-### Coming soon...
+### Project 1: 
+
+[<img src="https://user-images.githubusercontent.com/110363828/216776735-99bae5de-c9fe-4988-8bfa-5713ba7fd7b6.png"/>](https://github.com/shaksphere/pizzaorderform)
+
 
 
 
