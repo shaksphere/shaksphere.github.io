@@ -52,18 +52,6 @@ class Portfolio extends React.Component {
           
         </article>
   
-        <article className='coming-soon-card'>
-        <div className="row">
-        <div className="column">
-        <img loading='lazy' 
-              src={'assets/images/coming-soon.png'} className='coming-soon' alt='coming soon image'/>
-        </div>
-        <div className="column">
-        <h1 className='comingsoon-h1'>Look out for more projects to be added to My Portfolio soon!</h1>
-        </div>
-        </div>
-        </article>
-  
       </div>
       <Construction />
       </>

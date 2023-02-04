@@ -1,5 +1,5 @@
 import React from 'react';
-import '../portfolio/portfolio.scss';
+import '../portfolio/Portfolio.scss';
 
 
 class About extends React.Component {
