@@ -11,21 +11,21 @@ class Portfolio extends React.Component {
     <>
       {/* <Nav cast={cast} onChoice={(info) => { setMemberInfo(info) }} /> */}
       <div className="Portfolio">
-      <h1>My Portfolio</h1>
         <article className="portfolio-one"> 
         <div>
-          
-          <h1> Project 1: </h1>
-          <h2>'Pizza Deal Calculator'</h2>
+        <h1>My Portfolio</h1>
+
+          <h2> Project 1: 'Pizza Deal Calculator' </h2>
+  
           <section className="project-tools">
           <h3 className="attributions-h3">
-            This Project Was Built with:     </h3>
-          <a href="https://vitejs.dev/" target="_blank">
+            This project was built using:     </h3>
+          {/*<a href="https://vitejs.dev/" target="_blank">*/}
             <img src={viteLogo} className="logo vite" alt="Vite logo" />
-          </a>
-          <a href="https://reactjs.org" target="_blank">
+          {/*</a>*/}
+          {/*<a href="https://reactjs.org" target="_blank">*/}
             <img src={reactLogo} className="logo react" alt="React logo" />
-          </a>
+          {/*</a>*/}
           </section>
         </div>
         <div className="row">
@@ -34,7 +34,8 @@ class Portfolio extends React.Component {
               <img loading='lazy' 
               src={'assets/images/pizzasonly.png'} className='pizzasonly' alt='PO Logo'/>
           </a>
-          <footer className='gh-source'>Custom Logo - Click to see the demo</footer>
+          <footer className='gh-source'>This is a custom Logo -
+          <br></br> Click the logo or the button to see the demo</footer>
 
           </div>
           <div className="column">

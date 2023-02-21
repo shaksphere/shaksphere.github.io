@@ -10,7 +10,7 @@
 }
 
 .logo {
-  height: 10em!important;
+  height: 5em!important;
   padding: 1.5em!important;
   will-change: filter!important;
 }
@@ -61,6 +61,27 @@
 
 divider {
   color: #ffffff!important;
+
+}
+
+.viteLogo {
+  max-height: 5px!important;
+  max-width: 5px!important;
+  padding: 1px!important;
+}
+
+.reactLogo {
+  max-height: 5px!important;
+  max-width: 5px!important;
+  padding: 1px!important;
+}
+
+
+.github-source {
+  //padding: 0.5em!important;
+  //margin-top: 1em!important;
+  //margin-bottom: 1em!important;
+  scale: 0.5!important;
 
 }
 

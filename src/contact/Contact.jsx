@@ -8,29 +8,30 @@ class Contact extends React.Component {
     return (
         <>
         <div className="Contact" >
-        <h1>Connect With Me</h1>
         <article className="contact-card">
+        <h1>Connect With Me</h1>
         <div className="row">
         <div className="column">
         <h3>Email</h3>
-        <a href={"mailto: shak@shaksphere.au"}>shak@shaksphere.au
         <span className="material-symbols-outlined" >outgoing_mail</span>
+        <a href={"mailto: shak@shaksphere.au"}><br /> <br />shak@shaksphere.au
         </a>
         </div>
         <div className="column">
         <h3>Phone</h3>
-        <a href="tel:+61405629848"> 0405 629 848 
         <span className="material-symbols-outlined">smartphone</span>
+        <a href="tel:+61405629848"><br /> <br /> 0405 629 848 
         </a>
         </div>
         <div className="column">
         <h3>Personal Website</h3>
-                <a href="https://shaksphere.au" target="_blank">
-                <img loading="lazy" 
-                src={'../../assets/images/shaksphere.jpeg'} className="logo" alt="Shaksphere logo" />
+        <span className="material-symbols-outlined" >language</span>
+        <a href="https://shaksphere.au" target="_blank"><br /> <br />shaksphere.au
+               
                 </a>
             </div>
             </div>
+        
         </article>
 
         </div>

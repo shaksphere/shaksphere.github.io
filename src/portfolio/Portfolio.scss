@@ -19,8 +19,9 @@ h1, h2 {
 
 .gh-source {
   margin-top: 1em!important;
-  color: #004aad!important;
-  font-weight: bold!important;
+  color: #ffffff!important;
+  //color: #004aad!important;
+  //font-weight: bold!important;
 }
 
 .logo {
@@ -109,24 +110,34 @@ divider {
 
 }
 
-// .coming-soon {
-//   //image
-//   // scale: 50%!important;
-//   // max-height: fit-content!important;
-//   // max-width: fit-content!important;
-// }
 
-.coming-soon-card {
-  border-spacing: 0.5px!important;
+.coming-soon {
+  scale: 50%!important;
+  // max-height: fit-content!important;
+  // max-width: fit-content!important;
+  padding-top: 0px!important;
 }
+
+.wip-image {
+  max-width: 25%!important;
+  max-height: 25%!important;
+  
+}
+
+// .coming-soon-card {
+//   border-spacing: 0.5px!important;
+// }
 
 .comingsoon-h1 {
   color:$primary-500!important;
-  align-items: center!important;
-  vertical-align: middle!important;
-  margin-top: 50px!important;
+  // align-items: center!important;
+  // vertical-align: middle!important;
+  //margin-top: 1px !important;
 }
+.h3-wip {
+  color:$primary-500!important;
 
+}
 .tech-n-tools {
   max-height: 80px!important;
   max-width: 80px!important;
@@ -146,15 +157,17 @@ divider {
 
 .aboutme-p {
   font-family: 'Open Sans', sans-serif!important;
-  font-weight:bold!important;
+  //font-weight:bold!important;
   color: #ffffff!important;
   white-space: break-spaces!important;
 }
 
 .material-symbols-outlined{
+  color:$primary-500!important;
   max-height: 150px!important;
   max-width: 150px!important;
   padding: 5px!important;
+
 }
 
 .contact-card {
@@ -169,4 +182,16 @@ divider {
 .project-tools {
   box-shadow: white!important;
   background-size: 500px!important;
+}
+
+.viteLogo {
+  max-height: 5px!important;
+  max-width: 5px!important;
+  padding: 1px!important;
+}
+
+.reactLogo {
+  max-height: 5px!important;
+  max-width: 5px!important;
+  padding: 1px!important;
 }
