@@ -9,11 +9,11 @@ function Construction() {
        <h1> My Portfolio is a:      </h1>
        */}
         <article>
-        <h1> My Portfolio is a:      </h1>
+        <h1> More projects coming soon.      </h1>
 
         <img loading='lazy' 
               src={'assets/images/wip-two.png'} className="wip-image" alt='wip image'/>
-        <h3 className='h3-wip'><br></br>Look out for more projects to be added to My Portfolio soon!</h3>
+        {/*<h3 className='h3-wip'><br></br>Look out for more projects to be added to My Portfolio soon!</h3>*/}
         </article>
         </div>
         
