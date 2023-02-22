@@ -1,5 +1,6 @@
 import React from 'react';
 import './Portfolio.scss';
+import pythonLogo from '../assets/python.png';
 import githubLogo from '../assets/github.png';
 import reactLogo from '../assets/react.svg';
 import viteLogo from '../assets/vite.svg'; 
@@ -15,9 +16,18 @@ class Portfolio extends React.Component {
         <div>
         <h1>My Portfolio</h1>
 
-          <h2> Project 1: 'Pizza Deal Calculator' </h2>
+        {/* HTML/ JS/ CSS  */}
+        {/* Project 1  */}
+
+        <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+        <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+        <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+
+          <h2> <br />HTML / CSS / JavaScript Projects  <br /> </h2>
   
           <section className="project-tools">
+          <h3 className="attributions-h3">Project 1: 'Pizza Deal Calculator' </h3>
+
           <h3 className="attributions-h3">
             This project was built using:     </h3>
           {/*<a href="https://vitejs.dev/" target="_blank">*/}
@@ -52,7 +62,37 @@ class Portfolio extends React.Component {
         </div>
           
         </article>
-  
+        
+        {/* Python Projects  */}
+        {/* Project 1  */}
+        <article className="portfolio-one"> 
+        <div>
+          <img src={pythonLogo} className="logo react" alt="python logo" />
+          <h2> Python Projects  <br /> </h2>
+          <h3 className="attributions-h3"> Project 1: 'Random Numbers Guessing Game' </h3>
+          <section className="project-tools">
+          {/*<h3 className="attributions-h3">
+            This project was built using:     </h3>*/}
+                       <p className='proj-one-p'> This is a simple guessing game created from specifications given for a TAFE Project.</p>
+
+            <iframe src="https://replit.com/@ShakeelAbbas/Random-Number-Game?embed=true" width="600" height="400" />
+            <p className='proj-one-p'><br />Click 'Run' above to see how this works, or click 'Show files' to view the source code.</p>
+          </section>
+        </div>
+                  {/* Project 2 
+        <div>
+          <h3 className="attributions-h3"> Project 2: 'Random Numbers Guessing Game' </h3>
+          <section className="project-tools">
+         
+                       <p className='proj-one-p'> This is a simple guessing game created from specifications given for a TAFE Project.</p>
+
+            <iframe src="https://replit.com/@ShakeelAbbas/Random-Number-Game?embed=true" width="600" height="400" />
+            <p className='proj-one-p'><br />Click 'Run' above to see how this works, or click 'Show files' to view the source code.</p>
+          </section>
+        </div>
+         */}
+        </article>
+
       </div>
       <Construction />
       </>
