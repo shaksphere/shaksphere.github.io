@@ -5,6 +5,11 @@ import githubLogo from '../assets/github.png';
 import reactLogo from '../assets/react.svg';
 import viteLogo from '../assets/vite.svg'; 
 import Construction from '../components/Construction';
+import PayrollSlider from './PayrollSlider';
+import { PayrollSliderData } from './PayrollSliderData';
+import DirectorySlider from './DirectorySlider';
+import { DirectorySliderData } from './DirectorySliderData';
+import bitbucketLogo from '../assets/bitbucket.png';
 
 class Portfolio extends React.Component {
   render () {
@@ -24,8 +29,9 @@ class Portfolio extends React.Component {
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 
           <h2> <br />HTML / CSS / JavaScript Projects  <br /> </h2>
-  
+          
           <section className="project-tools">
+
           <h3 className="attributions-h3">Project 1: 'Pizza Deal Calculator' </h3>
 
           <h3 className="attributions-h3">
@@ -60,8 +66,7 @@ class Portfolio extends React.Component {
           <footer className='gh-source'>Source Code</footer>
         </div>
         </div>
-          
-        </article>
+        </article>  
         
         {/* Python Projects  */}
         {/* Project 1  */}
@@ -77,6 +82,122 @@ class Portfolio extends React.Component {
 
             <iframe src="https://replit.com/@ShakeelAbbas/Random-Number-Game?embed=true" width="600" height="400" />
             <p className='proj-one-p'><br />Click 'Run' above to see how this works, or click 'Show files' to view the source code.</p>
+          </section>
+        </div>
+                  {/* Project 2 
+        <div>
+          <h3 className="attributions-h3"> Project 2: 'Random Numbers Guessing Game' </h3>
+          <section className="project-tools">
+         
+                       <p className='proj-one-p'> This is a simple guessing game created from specifications given for a TAFE Project.</p>
+
+            <iframe src="https://replit.com/@ShakeelAbbas/Random-Number-Game?embed=true" width="600" height="400" />
+            <p className='proj-one-p'><br />Click 'Run' above to see how this works, or click 'Show files' to view the source code.</p>
+          </section>
+        </div>
+         */}
+        </article>
+
+        {/* C#  */}
+
+        {/* Project 1  */}
+        <article className="portfolio-one"> 
+        <div>
+        <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
+          <h2> C# Projects  <br /> </h2>
+          <h3 className="attributions-h3"> Project 1: 'Payroll Calculator - WPF' </h3>
+          <h4>Screenshots:</h4>
+          <p className='proj-csharp-p'>Click right and left to see more screenshots.</p>
+          <PayrollSlider slides={PayrollSliderData} />
+
+
+          {/*<img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
+          <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
+          <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
+          <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" /> */}
+
+          <section className="project-tools">
+          {/*<h3 className="attributions-h3">
+            This project was built using:     </h3>*/}
+                       <p className='proj-csharp-p'> <strong><br /> <br />Decription: <br /><br /></strong>The Employee Pay Calculator is an application that allows you to read an employee details file, 
+                                                  calculate the weekly pay, tax, and superannuation for an employee, given their hourly rate and hours worked, 
+                                                  and save the payslip to a new file, meeting your requirements for a pay calculator application. <br /><br />
+                                                  This was completed as a project for a Object-Oriented Programming unit at TAFE NSW.</p>
+
+            <a href="https://github.com/shaksphere/pay_calculator_wpf" target="_blank">
+            <img src={githubLogo} className="github-repo-one" alt="po-project" />
+            </a>
+            <footer className='gh-source'>Source Code</footer>
+          </section>
+        </div>
+                  {/* Project 2 
+        <div>
+          <h3 className="attributions-h3"> Project 2: 'Random Numbers Guessing Game' </h3>
+          <section className="project-tools">
+         
+                       <p className='proj-one-p'> This is a simple guessing game created from specifications given for a TAFE Project.</p>
+
+            <iframe src="https://replit.com/@ShakeelAbbas/Random-Number-Game?embed=true" width="600" height="400" />
+            <p className='proj-one-p'><br />Click 'Run' above to see how this works, or click 'Show files' to view the source code.</p>
+          </section>
+        </div>
+         */}
+        </article>
+
+        {/* Xamarin Forms */}
+
+        {/* Project 1  */}
+        <article className="portfolio-one"> 
+        <div>
+        <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xamarin/xamarin-original-wordmark.svg" />
+          <h2> Xamarin.Forms Projects - Mobile (Android)  <br /> </h2>
+          <h3 className="attributions-h3"> Project 1: 'Staff Directory App' </h3>
+          <h4>Screenshots:</h4>
+          <p className='proj-csharp-p'>Click right and left to see more screenshots. </p>
+          <DirectorySlider slides={DirectorySliderData} />
+
+
+          {/*<img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
+          <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
+          <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
+          <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" /> */}
+
+          <section className="project-tools">
+          {/*<h3 className="attributions-h3">
+            This project was built using:     </h3>*/}
+                       <p className='proj-xam-p'> <strong><br /> <br />Decription: <br /><br /></strong>
+                       A mobile application created for a TAFE project to provide a Staff contact directory. This will provide a staff listing and manage the contact information 
+                       of people who work within the company.
+                       <br/> <br/>
+The contact management mobile application should allow staff to:
+
+          </p>
+<div className='xam-div'>
+<ul>
+          <li >See a listing of all company staff profiles</li>
+          <li>Select a staff profile to view staff profile details</li>
+          <li>Allow staff profiles to be added or updated.</li>
+
+</ul>
+<p className='proj-xam-p'><br/>Things learned during this project: </p>
+<ul>
+        <li>Requirement Analysis</li>
+        <li>UI Prototyping</li> 
+        <li>Remote DB access - SQ Lite</li>
+        <li>VCS Interactions</li>
+        <li>Android App Deployment</li>
+        
+
+
+
+</ul>
+</div>
+
+
+            <a href="https://bitbucket.org/shakeelabbastafensw/roistaffdirectoryshakeelabbas/src/master/" target="_blank">
+            <img src={bitbucketLogo} className="bb-repo-one" alt="bb-project" />
+            </a>
+            <footer className='gh-source'>Source Code</footer>
           </section>
         </div>
                   {/* Project 2 
