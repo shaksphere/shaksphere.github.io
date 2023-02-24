@@ -103,7 +103,7 @@ class Portfolio extends React.Component {
         {/* Project 1  */}
         <article className="portfolio-one"> 
         <div>
-        <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
+        <img className="logo react" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
           <h2> C# Projects  <br /> </h2>
           <h3 className="attributions-h3"> Project 1: 'Payroll Calculator - WPF' </h3>
           <h4>Screenshots:</h4>
@@ -149,7 +149,7 @@ class Portfolio extends React.Component {
         {/* Project 1  */}
         <article className="portfolio-one"> 
         <div>
-        <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xamarin/xamarin-original-wordmark.svg" />
+        <img className="logo react" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xamarin/xamarin-original-wordmark.svg" />
           <h2> Xamarin.Forms Projects - Mobile (Android)  <br /> </h2>
           <h3 className="attributions-h3"> Project 1: 'Staff Directory App' </h3>
           <h4>Screenshots:</h4>
