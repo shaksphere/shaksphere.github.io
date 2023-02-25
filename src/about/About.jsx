@@ -11,8 +11,13 @@ class About extends React.Component {
     <div className="row">
         <div className="column">
         <h1>About Me</h1>
-        <p className="aboutme-p">I'm a Sydney-based Programmer who recently made a big leap, since June 2022 I have been dedicated to gaining experience in Xamarin.Forms, HTML/JS/CSS, React, ViteJS, Sass, Python, C# and more. </p>
-        <p className="aboutme-p">Learning new technologies excite me and finding solutions to problems is exhilarating, I am looking to take my development skills to the next level by finding a role where I can contribute to a team, as well as having some light guidance from an experienced mentor and team.</p>
+        <p className="aboutme-p">I'm a Sydney-based Programmer who recently made a big leap, since June 2022 
+        I have been dedicated to gaining experience in Xamarin.Forms, HTML/JS/CSS, React, ViteJS, Sass, Python, C# and more. </p>
+        {/*<p className="aboutme-p">Learning new technologies excite me and finding solutions to problems is exhilarating, I am looking to take my development skills to the next level by finding a role where I can contribute to a team, as well as having some light guidance from an experienced mentor and team.</p>*/}
+        <p className="aboutme-p">I'm a mature minded candidate who is passionate about learning and building on my solid foundations. 
+        I have a demonstrated ability to work as part of a team, as well as leading teams and mentoring others in previous roles. 
+        I see every new experience as a valuable opportunity to challenge myself and help your business grow.</p>
+
         </div>
         <div className="column-tech">
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
