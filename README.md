@@ -65,13 +65,25 @@ me.say_hi()
 
 
 
-## 🗂️ Highlight Projects
+## 🗂️ Highlight Projects 
+*Click on the screenshot of the project to see the demo/source code.*
+
 
 ### Project 1: 
 
 [<img src="https://user-images.githubusercontent.com/110363828/216776735-99bae5de-c9fe-4988-8bfa-5713ba7fd7b6.png"/>](https://github.com/shaksphere/pizzaorderform)
 
+### Project 2: 
 
+[<img src="https://user-images.githubusercontent.com/110363828/221166113-cd86404f-e66c-40b8-8732-6439345ab200.png"/>](https://replit.com/@ShakeelAbbas/Random-Number-Game)
+
+### Project 3: 
+
+[<img src="https://user-images.githubusercontent.com/110363828/221166672-c08a3d51-387e-4924-8c25-853a84f79ea4.png"/>](https://github.com/shaksphere/pay_calculator_wpf)
+
+### Project 4: 
+
+[<img src="https://user-images.githubusercontent.com/110363828/221166991-b68f29e6-718f-4f72-a9f7-09e083571020.png"/>](https://bitbucket.org/shakeelabbastafensw/roistaffdirectoryshakeelabbas/src/master/)
 
 
 ## 📫 𝙷𝚘𝚠 𝚝𝚘 𝚛𝚎𝚊𝚌𝚑 𝚖𝚎:
