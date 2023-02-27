@@ -81,7 +81,8 @@ class Portfolio extends React.Component {
                        <p className='proj-one-p'> This is a simple guessing game created from specifications given for a TAFE Project.</p>
 
             <iframe src="https://replit.com/@ShakeelAbbas/Random-Number-Game?embed=true" width="600" height="400" />
-            <p className='proj-one-p'><br />Click 'Run' above to see how this works, or click 'Show files' to view the source code.</p>
+            <br />
+            <p className='proj-one-p'>Click 'Run' above to see how this works, or click 'Show files' to view the source code.</p>
           </section>
         </div>
                   {/* Project 2 
@@ -108,6 +109,7 @@ class Portfolio extends React.Component {
           <h3 className="attributions-h3"> Project 1: 'Payroll Calculator - WPF' </h3>
           <h4>Screenshots:</h4>
           <p className='proj-csharp-p'>Click right and left to see more screenshots.</p>
+          <br />
           <PayrollSlider slides={PayrollSliderData} />
 
 
