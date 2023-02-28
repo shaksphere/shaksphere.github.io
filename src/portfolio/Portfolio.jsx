@@ -16,6 +16,7 @@ class Portfolio extends React.Component {
     return ( 
     <>
       {/* <Nav cast={cast} onChoice={(info) => { setMemberInfo(info) }} /> */}
+      
       <div className="Portfolio">
         <article className="portfolio-one"> 
         <div>
@@ -30,7 +31,7 @@ class Portfolio extends React.Component {
 
           <h2> <br />HTML / CSS / JavaScript Projects  <br /> </h2>
           
-          <section className="project-tools">
+          <section className="project-tools" id="js">
 
           <h3 className="attributions-h3">Project: 'Pizza Deal Calculator' </h3>
 
@@ -75,7 +76,7 @@ class Portfolio extends React.Component {
           <img src={pythonLogo} className="logo react" alt="python logo" />
           <h2> Python Projects  <br /> </h2>
           <h3 className="attributions-h3"> Project: 'Random Numbers Guessing Game' </h3>
-          <section className="project-tools">
+          <section className="project-tools" id="python">
           {/*<h3 className="attributions-h3">
             This project was built using:     </h3>*/}
                        <p className='proj-one-p'> This is a simple guessing game created from specifications given for a TAFE Project.</p>
@@ -118,7 +119,7 @@ class Portfolio extends React.Component {
           <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
           <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" /> */}
 
-          <section className="project-tools">
+          <section className="project-tools" id="csharp">
           {/*<h3 className="attributions-h3">
             This project was built using:     </h3>*/}
                        <p className='proj-csharp-p'> <strong><br /> <br />Decription: <br /><br /></strong>The Employee Pay Calculator is an application that allows you to read an employee details file, 
@@ -164,7 +165,7 @@ class Portfolio extends React.Component {
           <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
           <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" /> */}
 
-          <section className="project-tools">
+          <section className="project-tools" id="xamarin">
           {/*<h3 className="attributions-h3">
             This project was built using:     </h3>*/}
                        <p className='proj-xam-p'> <strong><br /> <br />Decription: <br /><br /></strong>
