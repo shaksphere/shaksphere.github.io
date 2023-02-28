@@ -24,14 +24,14 @@ class Portfolio extends React.Component {
 
         {/* HTML/ JS/ CSS  */}
         {/* Project 1  */}
-
+        <section id="js">
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 
           <h2> <br />HTML / CSS / JavaScript Projects  <br /> </h2>
-          
-          <section className="project-tools" id="js">
+          </section>
+          <section className="project-tools">
 
           <h3 className="attributions-h3">Project: 'Pizza Deal Calculator' </h3>
 
@@ -73,9 +73,11 @@ class Portfolio extends React.Component {
         {/* Project 1  */}
         <article className="portfolio-one"> 
         <div>
+          <section id="python">
           <img src={pythonLogo} className="logo react" alt="python logo" />
           <h2> Python Projects  <br /> </h2>
           <h3 className="attributions-h3"> Project: 'Random Numbers Guessing Game' </h3>
+          </section>
           <section className="project-tools" id="python">
           {/*<h3 className="attributions-h3">
             This project was built using:     </h3>*/}
@@ -105,6 +107,7 @@ class Portfolio extends React.Component {
         {/* Project 1  */}
         <article className="portfolio-one"> 
         <div>
+        <section id="csharp">
         <img className="logo react" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
           <h2> C# Projects  <br /> </h2>
           <h3 className="attributions-h3"> Project: 'Payroll Calculator - WPF' </h3>
@@ -113,13 +116,13 @@ class Portfolio extends React.Component {
           <br />
           <PayrollSlider slides={PayrollSliderData} />
 
-
+        </section>
           {/*<img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
           <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
           <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
           <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" /> */}
 
-          <section className="project-tools" id="csharp">
+          <section className="project-tools">
           {/*<h3 className="attributions-h3">
             This project was built using:     </h3>*/}
                        <p className='proj-csharp-p'> <strong><br /> <br />Decription: <br /><br /></strong>The Employee Pay Calculator is an application that allows you to read an employee details file, 
@@ -152,20 +155,21 @@ class Portfolio extends React.Component {
         {/* Project 1  */}
         <article className="portfolio-one"> 
         <div>
+        <section id="xamarin">
         <img className="logo react" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xamarin/xamarin-original-wordmark.svg" />
           <h2> Xamarin.Forms Projects - Mobile (Android)  <br /> </h2>
           <h3 className="attributions-h3"> Project: 'Staff Directory App' </h3>
           <h4>Screenshots:</h4>
           <p className='proj-csharp-p'>Click right and left to see more screenshots. </p>
           <DirectorySlider slides={DirectorySliderData} />
-
+          </section>
 
           {/*<img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
           <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
           <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
           <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" /> */}
 
-          <section className="project-tools" id="xamarin">
+          <section className="project-tools">
           {/*<h3 className="attributions-h3">
             This project was built using:     </h3>*/}
                        <p className='proj-xam-p'> <strong><br /> <br />Decription: <br /><br /></strong>
