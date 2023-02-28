@@ -92,6 +92,21 @@ divider {
 
 }
 
+.row-contact {
+  display: flex!important;
+  padding: 0.5em!important;
+
+}
+
+.column-contact {
+  flex: 25%!important;
+  padding: 1em!important;
+  align-items: center!important;
+  vertical-align: middle!important;
+  // margin-top: 30px!important;
+
+}
+
 .proj-one-button {
   align-items: center!important;
   padding: 0.5em!important;
@@ -195,10 +210,16 @@ divider {
   color:$primary-500!important;
   max-height: 150px!important;
   max-width: 150px!important;
-  padding: 5px!important;
+  //padding: 5px!important;
 
 }
 
+.linkedin {
+  color:$primary-500!important;
+  max-height: 34px!important;
+  max-width: 34px!important;
+  //padding: 5px!important;
+}
 .contact-card {
   margin: auto!important;
 }
