@@ -18,7 +18,7 @@ class Header extends React.Component {
             </a>
         </div>
         <div>
-        <a href="Contact">
+        <a href="#contact">
         <img 
             loading="lazy" 
             width={1200} 
