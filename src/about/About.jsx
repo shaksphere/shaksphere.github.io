@@ -20,6 +20,7 @@ class About extends React.Component {
 
         </div>
         <div className="column-tech">
+        <div className="well">
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
@@ -36,9 +37,7 @@ class About extends React.Component {
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg" />
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
-
-        
-        
+        </div>
         </div>
         </div>
     </article>

@@ -47,15 +47,17 @@ class Portfolio extends React.Component {
         </div>
         <div className="row">
           <div className="column">
+          <div className="well">
           <a href="https://stunning-dodol-be62f5.netlify.app/" target="_blank">
               <img loading='lazy' 
               src={'assets/images/pizzasonly.png'} className='pizzasonly' alt='PO Logo'/>
           </a>
           <footer className='gh-source'>This is a custom Logo -
           <br></br> Click the logo or the button to see the demo</footer>
-
+          </div>
           </div>
           <div className="column">
+          <div className="well">
           <p className='proj-one-p'> A web application which calculates the best deal combination based on the number of pizza
           which I created for a TAFE project and have since updated using Vite, React and picocss/Sass     </p>
           <a href="https://stunning-dodol-be62f5.netlify.app/" target="_blank">
@@ -65,6 +67,7 @@ class Portfolio extends React.Component {
             <img src={githubLogo} className="github-repo-one" alt="po-project" />
           </a>
           <footer className='gh-source'>Source Code</footer>
+          </div>
         </div>
         </div>
         </article>  
@@ -114,8 +117,9 @@ class Portfolio extends React.Component {
           <h4>Screenshots:</h4>
           <p className='proj-csharp-p'>Click right and left to see more screenshots.</p>
           <br />
+          <div>
           <PayrollSlider slides={PayrollSliderData} />
-
+          </div>
         </section>
           {/*<img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
           <img src={payrollScreenshot} className="payrol-ss" alt="wpf app ss" />
