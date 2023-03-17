@@ -10,6 +10,7 @@ import { PayrollSliderData } from './PayrollSliderData';
 import DirectorySlider from './DirectorySlider';
 import { DirectorySliderData } from './DirectorySliderData';
 import bitbucketLogo from '../assets/bitbucket.png';
+import fitbitLogo from '../assets/fitbit.svg';
 
 class Portfolio extends React.Component {
   render () {
@@ -209,6 +210,41 @@ The contact management mobile application should allow staff to:
             <img src={bitbucketLogo} className="bb-repo-one" alt="bb-project" />
             </a>
             <footer className='gh-source'>Source Code</footer>
+          </section>
+        </div>
+                  {/* Project 2 
+        <div>
+          <h3 className="attributions-h3"> Project 2: 'Random Numbers Guessing Game' </h3>
+          <section className="project-tools">
+         
+                       <p className='proj-one-p'> This is a simple guessing game created from specifications given for a TAFE Project.</p>
+
+            <iframe src="https://replit.com/@ShakeelAbbas/Random-Number-Game?embed=true" width="600" height="400" />
+            <p className='proj-one-p'><br />Click 'Run' above to see how this works, or click 'Show files' to view the source code.</p>
+          </section>
+        </div>
+         */}
+        </article>
+
+          {/* Python Projects  */}
+        {/* Project 1  */}
+        <article className="portfolio-one"> 
+        <div>
+          <section id="fitbit">
+          <a target="_blank" href="https://icons8.com/icon/60614/fitbit">
+          <img src={fitbitLogo} className="logo react" alt="fitbit logo" />
+          </a> 
+          <h2> Fitbit Fun  <br /> </h2>
+          <h3 className="attributions-h3"> Project: 'Make it Count!' </h3>
+          </section>
+          <section className="project-tools" id="python">
+          {/*<h3 className="attributions-h3">
+            This project was built using:     </h3>*/}
+                       <p className='proj-one-p'> This is a simple shot tracker for basketball which is used to count makes/misses and shooting percentage.</p>
+
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/u-51VLDjLO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br />
+            <p className='proj-one-p'>Click the 'play' button above to see a demo of how this works</p>
           </section>
         </div>
                   {/* Project 2 

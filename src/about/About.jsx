@@ -21,15 +21,26 @@ class About extends React.Component {
         </div>
         <div className="column-tech">
         <div className="well">
+        <a href="#js">
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+        </a>
+        <a href="#csharp">
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" />
+        </a>
+        <a href="#xamarin">
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xamarin/xamarin-original-wordmark.svg" />
+        </a>
+        <a href="#python">
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+        </a>
+        <a href="#fitbit">
+        <img className="tech-n-tools" alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiMwMGJjZDYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIyIDNBMyAzIDAgMSAwIDIyIDkgMyAzIDAgMSAwIDIyIDN6TTIyLjAwNCAxMS41QTIuOTk2IDMgMCAxIDAgMjIuMDA0IDE3LjUgMi45OTYgMyAwIDEgMCAyMi4wMDQgMTEuNXpNMzEuNDk1IDIwLjVBMy40OTUgMy41IDAgMSAwIDMxLjQ5NSAyNy41IDMuNDk1IDMuNSAwIDEgMCAzMS40OTUgMjAuNXpNNDIuMDA3IDIwLjAwMjAwMDAwMDAwMDAwMkEzLjk5MyAzLjk5OSAwIDEgMCA0Mi4wMDcgMjggMy45OTMgMy45OTkgMCAxIDAgNDIuMDA3IDIwLjAwMjAwMDAwMDAwMDAwMnpNMzEuNTA1IDExQTMuNDk1IDMuNSAwIDEgMCAzMS41MDUgMTggMy40OTUgMy41IDAgMSAwIDMxLjUwNSAxMXpNMzEuNTA1IDMwQTMuNDk1IDMuNSAwIDEgMCAzMS41MDUgMzcgMy40OTUgMy41IDAgMSAwIDMxLjUwNSAzMHpNMjEuOTk2IDMwLjVBMi45OTYgMyAwIDEgMCAyMS45OTYgMzYuNSAyLjk5NiAzIDAgMSAwIDIxLjk5NiAzMC41ek0yMS45OTggMzguOTY0QTMuMDAzIDMuMDE4IDAgMSAwIDIxLjk5OCA0NSAzLjAwMyAzLjAxOCAwIDEgMCAyMS45OTggMzguOTY0ek0yMi4wMDQgMjAuOTY0QTIuOTk2IDMgMCAxIDAgMjIuMDA0IDI2Ljk2NCAyLjk5NiAzIDAgMSAwIDIyLjAwNCAyMC45NjR6TTEzLjUgMjEuNUEyLjUgMi41IDAgMSAwIDEzLjUgMjYuNSAyLjUgMi41IDAgMSAwIDEzLjUgMjEuNXpNMTMuNSAzMUEyLjUgMi41IDAgMSAwIDEzLjUgMzYgMi41IDIuNSAwIDEgMCAxMy41IDMxek0xMy41IDEyQTIuNSAyLjUgMCAxIDAgMTMuNSAxNyAyLjUgMi41IDAgMSAwIDEzLjUgMTJ6TTYgMjJBMiAyIDAgMSAwIDYgMjYgMiAyIDAgMSAwIDYgMjJ6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjwvcGF0aD4KPC9zdmc+"/>
+        </a>
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" />
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
         <img className="tech-n-tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />

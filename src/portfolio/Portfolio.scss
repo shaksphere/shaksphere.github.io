@@ -93,8 +93,8 @@ divider {
 }
 
 .row-contact {
-  display: flex!important;
-  padding: 0.5em!important;
+  @extend .row;
+  
 
 }
 
