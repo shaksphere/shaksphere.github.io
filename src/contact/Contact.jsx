@@ -37,11 +37,22 @@ class Contact extends React.Component {
 
             </div>
             </div>
-        
+          
         </article>
-
         </div>
-
+        <div className="Contact">
+            <section id="resume">
+        <article>
+            <div className="row-contact">
+            <div className="column-contact">
+            <h1>Download My Resumé</h1>
+            <span className="material-symbols-outlined resume" >description</span>
+            <a href="https://drive.google.com/file/d/1NPSMV1Rg833KRwdTMKEnVu6X7TLS1udj/view?usp=share_link" target="_blank" className="button"><br /><br />Click Here</a>
+           </div>
+           </div>
+           </article>
+           </section>
+        </div>
         </>
              )
     }

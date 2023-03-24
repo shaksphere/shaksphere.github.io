@@ -23,6 +23,9 @@ export default ({ cast, onChoice }) => {
                   <li>
                   <a href='#contact'>Contact</a>
               </li>
+              <li>
+                  <a href='#resume'>Resumé</a>
+              </li>
               </ul>
             </details>
           </li>
@@ -42,6 +45,9 @@ export default ({ cast, onChoice }) => {
                     <li>
                     <a href='#contact'>Contact</a>
                     </li>
+                    <li>
+                    <a href='#resume'>Resumé</a>
+                   </li>
                   </ul>
                   
       </nav>
