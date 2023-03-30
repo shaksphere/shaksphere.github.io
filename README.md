@@ -42,6 +42,8 @@ me.say_hi()
 ![react](https://user-images.githubusercontent.com/110363828/216160063-564ce151-02f3-4a8f-b85d-73ee9b0e267d.svg) |![vite](https://user-images.githubusercontent.com/110363828/216150019-6760b643-cce1-49cd-8eb4-a60b7ab8762e.svg) | <img class="csharp" width=48px height=48px src="https://user-images.githubusercontent.com/110363828/228983225-f4e2b183-15fb-4890-afed-ffcfb4d87534.png"/> | <img class="dotnetmaui" width=48px height=48px src="https://user-images.githubusercontent.com/110363828/228983507-e1048a73-4210-472b-a962-b7391b516ebb.png"/>
 
 
+![Alt Text](https://media.giphy.com/media/6Wsb9X0HjH9JUFohaQ/giphy.gif)
+<p font-size=small><a href="https://giphy.com/gifs/fallontonight-chef-progress-daniel-humm-6Wsb9X0HjH9JUFohaQ">via GIPHY</a></p>
 
 :mag_right: 🎯 In the near future I plan to:
 
@@ -50,7 +52,7 @@ me.say_hi()
 
 :bow_and_arrow: One day I aspire to:
 
-                - Start my own Software business
+                - Start my own SaaS business
                 - Make a positive impact in the world through my programming skills 
 
 
