@@ -15,10 +15,13 @@ class Programmer:
         self.name = "Shakeel"
         self.role = "Software Engineer, Programmer, Developer"
         self.language_spoken = ["en_AU", "ar_MS"]
+        self.programming_langs = ["Python","JavaScript/HTML/CSS", "C#", "PHP"]
+        self.tools_frameworks = ["React/VueJs/ViteJs/Jquery", "Sass/Picocss", "Xamarin", ".NET Maui", "Fitbit Studio", "Wordpress"]
+        self.query_langs = ["Microsoft SQL", "MySQL"]
+        self.vcs = ["Git", "GitHub", "BitBucket"]
 
     def say_hi(self):
         print("Thanks for dropping by, hope you find some of my work interesting.")
-
 
 me = Programmer()
 me.say_hi()
