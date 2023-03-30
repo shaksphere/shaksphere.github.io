@@ -37,11 +37,17 @@ me.say_hi()
 
  :new: 🔨
  
-              - Building this portfolio and honing my skills in:
+              - Honing my skills in:
               
 ![react](https://user-images.githubusercontent.com/110363828/216160063-564ce151-02f3-4a8f-b85d-73ee9b0e267d.svg)
 
 ![vite](https://user-images.githubusercontent.com/110363828/216150019-6760b643-cce1-49cd-8eb4-a60b7ab8762e.svg)
+
+![icons8-sharp-98](https://user-images.githubusercontent.com/110363828/228983225-f4e2b183-15fb-4890-afed-ffcfb4d87534.png)
+
+![netmaui](https://user-images.githubusercontent.com/110363828/228983507-e1048a73-4210-472b-a962-b7391b516ebb.png)
+
+
 
 :mag_right: 🎯 In the near future I plan to:
 
