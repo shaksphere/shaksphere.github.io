@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
+//import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
-import Support from './components/Support';
+import Support from './Support';
 import './App.scss';
 import { Divider } from '@mui/material';
 import Portfolio from './portfolio/Portfolio';
@@ -8,6 +9,7 @@ import About from './about/About';
 import Contact from './contact/Contact';
 import Header from './components/Header';
 import Attribution from './components/Attribution';
+// import ContactDemoButton from './contactdemo/contactdemobutton';
 // import Modals from './components/Modals';
 // import ListCast from './components/ListCast';
 
@@ -42,7 +44,6 @@ function App() {
     <>
     <section id="home">
     <div className="App">
-
     <Nav cast={cast} onChoice={(info) => { setMemberInfo(info) }} />
 
       <Header />
@@ -79,8 +80,11 @@ function App() {
       <Divider orientation="vertical" flexItem> </Divider>        
       
       <Attribution />
-
+      {/*<section id="contact-demo-button">
+      <ContactDemoButton />
+    </section> */}
       <Support />
+     
       </div>
       </section>
     </>
