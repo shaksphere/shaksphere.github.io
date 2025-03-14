@@ -13,6 +13,7 @@ class Programmer:
 
     def __init__(self):
         self.name = "Shakeel"
+        self.alias = "Shak"
         self.role = "Software Engineer, Programmer, Developer"
         self.language_spoken = ["en_AU", "ar_MS"]
         self.programming_langs = ["Python","JavaScript/HTML/CSS", "C#", "PHP"]
